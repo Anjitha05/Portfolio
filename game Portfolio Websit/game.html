@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games - Anjitha</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        .game-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 100px 20px 40px;
+            background-image: url(MagicalForest.png);
+        }
+
+        .game-box {
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .game-box iframe, .game-box img {
+            width: 80%;
+            max-width: 800px;
+            border: 2px solid skyblue;
+            border-radius: 10px;
+            box-shadow: 0 0 20px skyblue;
+        }
+
+        .game-box p {
+            margin-top: 10px;
+            font-size: 1.4rem;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Anjitha</a>
+        <nav>
+            <a href="HomeScreen Website page.html">Home</a>
+            <a href="animation.html">Animation</a>
+            <a href="game.html" class="active">Games</a>
+        </nav>
+    </header>
+
+    <section class="game-section">
+        <!-- Embed a WebGL game -->
+        <!-- <div class="game-box">
+            <iframe frameborder="0" src="https://your-itch-game-link.com" height="480" allowfullscreen></iframe>
+            <p>Playable Game Title 1</p>
+        </div> -->
+
+        <!-- Game thumbnail and link -->
+        <div class="game-box">
+            <a href="Cosmic Chase Game/index.html" target="_blank">
+                <img src="thambnail.png" alt="Game Screenshot">
+            </a>
+            <p>Game Title 2 (Click to Play)</p>
+        </div>
+    </section>
+</body>
+</html>

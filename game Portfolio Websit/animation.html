@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations - Anjitha</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        .video-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 100px 20px 40px;
+            background-image: url(MagicalForest.png);
+        }
+
+        .video-container {
+            margin: 30px 0;
+        }
+
+        video {
+            width: 80%;
+            max-width: 700px;
+            border: 2px solid skyblue;
+            border-radius: 10px;
+            box-shadow: 0 0 20px skyblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Anjitha</a>
+        <nav>
+            <a href="HomeScreen Website page.html">Home</a>
+            <a href="animation.html" class="active">Animation</a>
+            <a href="game.html">Games</a>
+        </nav>
+    </header>
+
+    <section class="video-section">
+        <div class="video-container">
+            <video controls>
+                <source src="Whiskers in Moonlight.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="video-container">
+            <video controls>
+                <source src="SliverShadow Showdown.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+</body>
+</html>
